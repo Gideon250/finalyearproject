@@ -1,0 +1,53 @@
+const data ={
+  products: [
+    {
+      name: 'Pineapple',
+      slug: 'fresh-fruit',
+      category: 'Fruits',
+      image: '/images/pine3.jpg', // 679px × 829px
+      price: 300,
+      countInStock: 10,
+      Quantity: 1,
+      rating: 4.5,
+      numReviews: 10,
+      description: 'sweet fruit',
+    },
+    {
+      name: 'Tomatoes',
+      slug: 'fresh-vegetable',
+      category: 'Vegetables',
+      image: '/images/tom6.jpg',
+      price: 100,
+      countInStock: 20,
+      Quantity: 1,
+      rating: 4.0,
+      numReviews: 10,
+      description: 'high quality product',
+    },
+    {
+      name: 'Beans',
+      slug: 'Red Beans',
+      category: 'Legumes',
+      image: '/images/reb6.png',
+      price: 1000,
+      countInStock: 15,
+      Quantity: 1,
+      rating: 4.5,
+      numReviews: 14,
+      description: 'high quality product',
+    },
+    {
+      name: 'Carrots',
+      slug: 'vegetable',
+      category: 'Roots Vegetable',
+      image: '/images/car3.jpg',
+      price: 100,
+      countInStock: 5,
+      quantity: 1,
+      rating: 4.5,
+      numReviews: 10,
+      description: 'high quality product',
+    },
+  ],
+};
+export default data;
